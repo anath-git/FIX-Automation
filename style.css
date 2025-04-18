@@ -121,11 +121,13 @@ strong {
 }
 
 .feature-list li::before {
-    content: '✓'; /* Checkmark symbol */
+    content: '\2022';
+        /* Checkmark symbol */
     position: absolute;
     left: 0;
     top: 1px; /* Adjust vertical alignment */
-    color: #27ae60; /* Green checkmark */
+    color: #000000;
+        /* Black dot */
     font-weight: bold;
 }
 
